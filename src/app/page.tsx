@@ -1,10 +1,10 @@
 // app/page.tsx
-import SocialBar from "@/components/SocialBar";
-import SecaoTrajetoria from "@/components/SecaoTrajetoria";
-import SecaoProject from "@/components/SecaoProject";
-import Footer from "@/components/Footer"
-import SecaoConquista from "@/components/SecaoConquista"
-import SecaoContato from "@/components/SecaoContato";
+// import SocialBar from "@/components/SocialBar";
+// import SecaoTrajetoria from "@/components/SecaoTrajetoria";
+// import SecaoProject from "@/components/SecaoProject";
+// import Footer from "@/components/Footer"
+// import SecaoConquista from "@/components/SecaoConquista"
+// import SecaoContato from "@/components/SecaoContato";
 import Image from "next/image";
 import profileImage from "../../public/globe.svg"
 
