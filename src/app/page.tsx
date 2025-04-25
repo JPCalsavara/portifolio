@@ -5,7 +5,8 @@ import SecaoProject from "@/components/SecaoProject";
 import Footer from "@/components/Footer"
 import SecaoConquista from "@/components/SecaoConquista"
 import SecaoContato from "@/components/SecaoContato";
-
+import Image from "next/image";
+import profileImage from "../../public/globe.svg"
 
 
 export default function Home() {
@@ -18,13 +19,11 @@ export default function Home() {
         <p className="text-lg text-cyan-500">Desenvolvedor focado em criar soluções web criativas e eficientes com React, Node.js, Prisma, C++ e C</p>
       </div>
 
-      <img
-        src="/images/profile.jpg" // Substitua pelo caminho correto da sua imagem
-        alt="João Pedro Calsavara"
-        className="w-70 h-70 mx-auto rounded-full border-4 border-cyan-500 shadow-lg mb-8"
-        />
+      <Image src={profileImage} alt="imagem de perfil"
+      className="w-70 h-70 mx-auto rounded-full border-4 border-cyan-500 shadow-lg mb-8"
+      ></Image>
       
-      <SecaoProject></SecaoProject>
+      {/* <SecaoProject></SecaoProject>
 
       <SecaoTrajetoria />
 
@@ -34,7 +33,7 @@ export default function Home() {
 
       <Footer></Footer>
 
-      <SocialBar></SocialBar>
+      <SocialBar></SocialBar> */}
     </section>
   );
 }
