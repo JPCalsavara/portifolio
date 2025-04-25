@@ -5,10 +5,10 @@ export default function SocialBar() {
     const resumeLink = "/files/curriculo.pdf"; // Substitua pelo caminho correto do currículo
   
     return (
-      <div className="fixed left-0 top-0 bottom-0 w-16 bg-gray-800 flex flex-col items-center py-8 gap-6">
+      <div className="fixed left-0 bottom-0 w-16 border-r-2 border-sky-700 rounded-xl bg-gray-800 flex flex-col justify-end items-center py-8 gap-6">
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
           <img
-            src="/images/github-logo.png"
+            src="../images/github-logo.svg"
             alt="GitHub"
             className="w-8 h-8 hover:opacity-80 transition-opacity"
           />
