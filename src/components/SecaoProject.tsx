@@ -34,7 +34,7 @@ export default function SecaoProject() {
       {/* Contêiner do carrossel */}
       <div
         ref={carrosselRef}
-        className="flex gap-6 px-4 overflow-hidden w- bg-"
+        className="flex gap-6 px-4 overflow-hidden no-scrollbar overflow-x-scroll w- bg-"
       >
         <div className="flex gap-6">
           {projetos.map((projeto, index) => (

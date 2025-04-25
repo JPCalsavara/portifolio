@@ -1,4 +1,4 @@
-import { TrajetoriaCard } from "../components/TrajetoriaCard";
+import { TrajetoriaCard } from "./TrajetoriaCard";
 
 interface SecaoTrajetoriaProps {
   eixo?: "horizontal" | "vertical"; // Define o eixo como parâmetro opcional
