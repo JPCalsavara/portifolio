@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #0a1930;
+}
+
+body {
+  font-family: sans-serif;
+  color: #dddde7;
+} 
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
